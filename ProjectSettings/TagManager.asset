@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Walls
+  - Solid Walls
+  - Door
+  - Water
+  - Spikes
+  - Nest
+  - Switch
+  - Exit
+  - Solid Wall
+  - Wall
+  - Nido
+  - Image
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BlockingLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1697103573
+    locked: 0
+  - name: Floor
+    uniqueID: 1229290949
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Object
+    uniqueID: 1705859839
+    locked: 0
+  - name: Unit
+    uniqueID: 4249266383
+    locked: 0
+  - name: Nido
+    uniqueID: 2009873029
+    locked: 0
