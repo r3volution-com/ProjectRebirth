@@ -168,7 +168,9 @@ public class Juego : MonoBehaviour {
 
     public void nextLevel()
 	{
-		DisplayWinImage ();
+		if (lvl == 3) {
+			imagenfin.gameObject.SetActive(true);
+		} else DisplayWinImage ();
 
     }
 
@@ -178,7 +180,7 @@ public class Juego : MonoBehaviour {
 		} else if (lvl == 2) {
 			Application.LoadLevel (3);
 		} else if (lvl == 3) {
-			imagenfin.gameObject.SetActive(true);
+			//Lo hago arriba
 		} else {
 			Application.LoadLevel(0);
 		}
